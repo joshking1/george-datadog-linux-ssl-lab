@@ -1,0 +1,6 @@
+init_config:
+instances:
+  - apache_status_url: http://127.0.0.1/server-status?auto
+    tags:
+      - environment:lab
+      - service:george-apache
