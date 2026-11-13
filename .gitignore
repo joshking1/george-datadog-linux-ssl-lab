@@ -1,0 +1,14 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.log
+__pycache__/
+.DS_Store
+.vscode/
+.idea/
