@@ -1,0 +1,11 @@
+init_config:
+instances:
+  - name: george-lab-https
+    url: https://REPLACE_WITH_YOUR_TEST_DOMAIN/
+    timeout: 10
+    check_certificate_expiration: true
+    days_warning: 30
+    days_critical: 14
+    tags:
+      - environment:lab
+      - service:george-ssl
